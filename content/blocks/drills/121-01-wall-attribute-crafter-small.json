@@ -1,0 +1,23 @@
+requirements: [ graphite/30, 101-08-chromium-ingot/10 ]
+category: production
+size: 2
+consumes: { power: 2 }
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 25
+type: WallAttributeCrafter
+craftTable: [
+  {
+    type: WallAttributeCrafterModule
+    attribute: silichrom
+    outputItems: [ 111-01-silichrom/1 ]
+    drillTime: 75
+  }
+  {
+    type: WallAttributeCrafterModule
+    attribute: siliferrum
+    outputItems: [ 111-02-siliferrum/1 ]
+    drillTime: 75
+  }
+]
