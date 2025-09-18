@@ -11,15 +11,13 @@ craftTable: [
   {
     type: WallAttributeCrafterModule
     attribute: silichrom
-    outputItems: [ 101-01-silichrom/1 ]
+    outputItems: [ 111-01-silichrom/1 ]
     drillTime: 60
   }
   {
     type: WallAttributeCrafterModule
     attribute: siliferrum
-    outputItems: [ 101-02-siliferrum/1 ]
+    outputItems: [ 111-02-siliferrum/1 ]
     drillTime: 60
   }
 ]
-
-//TODO rename later
