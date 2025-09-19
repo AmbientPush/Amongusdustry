@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '102-21-contaminated-liquid-silica'
+  parent: '102-40-contaminated-liquid-silica'
 }

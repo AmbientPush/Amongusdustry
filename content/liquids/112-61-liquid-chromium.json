@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '102-22-contaminated-liquid-chromium'
+  parent: '102-41-contaminated-liquid-chromium'
 }

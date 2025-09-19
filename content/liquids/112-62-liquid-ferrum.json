@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '102-23-contaminated-liquid-ferrum'
+  parent: '102-42-contaminated-liquid-ferrum'
 }

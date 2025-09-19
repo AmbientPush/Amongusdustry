@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '101-07-ferrum-powder'
+  parent: '101-22-ferrum-powder'
 }

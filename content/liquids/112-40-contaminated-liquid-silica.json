@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '101-05-silica-powder'
+  parent: '101-20-silica-powder'
 }

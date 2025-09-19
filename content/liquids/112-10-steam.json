@@ -10,5 +10,5 @@ temperature: 0.7
 blockReactive: false
 
 research: {
-  parent: '102-01-purified-water'
+  parent: '102-00-purified-water'
 }

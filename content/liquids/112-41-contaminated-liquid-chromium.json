@@ -9,5 +9,5 @@ temperature: 0.75
 blockReactive: true
 
 research: { 
-  parent: '101-06-chromium-powder'
+  parent: '101-21-chromium-powder'
 }
