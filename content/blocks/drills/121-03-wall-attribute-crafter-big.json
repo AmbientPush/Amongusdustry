@@ -11,13 +11,13 @@ craftTable: [
   {
     type: WallAttributeCrafterModule
     attribute: silichrom
-    outputItems: [ 111-01-silichrom/1 ]
+    outputItems: [ 111-00-silichrom-ore/1 ]
     drillTime: 60
   }
   {
     type: WallAttributeCrafterModule
     attribute: siliferrum
-    outputItems: [ 111-02-siliferrum/1 ]
+    outputItems: [ 111-01-siliferrum-ore/1 ]
     drillTime: 60
   }
 ]
