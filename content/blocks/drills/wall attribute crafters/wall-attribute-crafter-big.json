@@ -1,4 +1,4 @@
-requirements: [ graphite/30, 101-08-chromium-ingot/10 ]
+requirements: [ graphite/30, chromium-ingot/10 ]
 category: production
 size: 4
 consumes: { power: 2 }
@@ -11,13 +11,13 @@ craftTable: [
   {
     type: WallAttributeCrafterModule
     attribute: silichrom
-    outputItems: [ 111-00-silichrom-ore/1 ]
+    outputItems: [ silichrom-ore/1 ]
     drillTime: 60
   }
   {
     type: WallAttributeCrafterModule
     attribute: siliferrum
-    outputItems: [ 111-01-siliferrum-ore/1 ]
+    outputItems: [ siliferrum-ore/1 ]
     drillTime: 60
   }
 ]

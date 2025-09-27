@@ -8,6 +8,4 @@ viscosity: 0.45
 temperature: 0.5
 blockReactive: false
 
-research: { 
-  parent: 'core-shard' //TODO change later
-}
+research: 'steam'

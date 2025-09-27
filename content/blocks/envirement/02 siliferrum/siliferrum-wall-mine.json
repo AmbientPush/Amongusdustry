@@ -1,4 +1,4 @@
 type: StaticWall
 variants: 3
 attributes: { siliferrum: 1.5 }
-itemDrop: 111-02-siliferrum
+itemDrop: siliferrum-ore

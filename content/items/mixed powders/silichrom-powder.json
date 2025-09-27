@@ -5,5 +5,5 @@ charge: 0
 hardness: 1
 color: F2F1ECFF //C7C6C2FF, 999894FF //TODO change later
 alwaysUnlocked: false
-research: '101-03-silichrom-powder'
-cost: 1
+research: 'silichrom'
+cost: 1.5

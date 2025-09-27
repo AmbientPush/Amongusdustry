@@ -8,6 +8,4 @@ viscosity: 0.75
 temperature: 0.75
 blockReactive: true
 
-research: { 
-  parent: '102-40-contaminated-liquid-silica'
-}
+research: 'contaminated-liquid-chromium'

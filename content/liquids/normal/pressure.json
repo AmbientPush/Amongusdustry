@@ -12,8 +12,5 @@ incinerable: false
 lightColor: ffffff00
 viscosity: 0
 
-research: {
-  parent: '102-03-steam'
-}
-
+research: 'steam'
 //TODO change oldat later

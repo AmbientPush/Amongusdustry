@@ -8,6 +8,4 @@ viscosity: 0.9
 temperature: 0.75
 blockReactive: true
 
-research: { 
-  parent: 'core-shard' //TODO change later
-}
+research: 'silica-powder'

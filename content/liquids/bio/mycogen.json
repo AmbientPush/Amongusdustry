@@ -8,6 +8,4 @@ viscosity: 0.75
 temperature: 0.75
 blockReactive: true
 
-research: { 
-  parent: '102-42-contaminated-liquid-ferrum'
-}
+research: 'contaminated-liquid-silica' //TODO change to an actuall parent
