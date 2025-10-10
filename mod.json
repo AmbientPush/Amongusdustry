@@ -15,3 +15,57 @@ hidden: false
 repo: AmbientPush/Automaton-Dynamics
 subtitle: "crack :drooling_face:"
 hideBrowser: true
+
+contentOrder: [
+  //Planets
+
+  //Sectors
+
+  //Resources
+
+  //Items
+
+  //Ores
+  silichrom-ore
+  siliferrum-ore
+
+  //Mixed Powders
+  silichrom-powder
+  siliferrum-powder
+
+  //Seperated Powders
+  chromium-powder
+  ferrum-powder
+  silica-powder
+
+  //Ingots
+  graphite
+  chromium-ingot
+  ferrum-ingot
+  silicon
+
+  //Liquids
+
+  //Other
+  dirty-water
+  purified-water
+  sludge
+  steam
+  pressure
+
+  //Contaminated Liquid Metals
+  contaminated-liquid-chromium
+  contaminated-liquid-ferrum
+  contaminated-liquid-silica
+
+  //Clean Liquid Metals
+  clean-liquid-chromium
+  clean-liquid-ferrum
+  clean-liquid-silica
+
+  //Bio
+  mycogen
+  blighten
+
+  //Status Effects
+]
