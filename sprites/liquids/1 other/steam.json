@@ -1,0 +1,12 @@
+type: Liquid
+color: 66C2FF //TODO change later
+gas: true
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0
+viscosity: 0
+temperature: 0.7
+blockReactive: false
+
+research: 'dirty-water'

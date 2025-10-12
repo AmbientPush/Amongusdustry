@@ -1,0 +1,11 @@
+type: Liquid
+color: 66C2FF //TODO change later
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0
+viscosity: 0.9
+temperature: 0.75
+blockReactive: true
+
+research: 'core-shard' //TODO change later

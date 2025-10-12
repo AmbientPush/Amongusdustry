@@ -1,0 +1,4 @@
+type: StaticWall
+variants: 3
+attributes: { silichrom: 1.5 }
+itemDrop: silichrom-ore

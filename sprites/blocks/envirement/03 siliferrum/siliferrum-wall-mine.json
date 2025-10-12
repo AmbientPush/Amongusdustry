@@ -1,0 +1,4 @@
+type: StaticWall
+variants: 3
+attributes: { siliferrum: 1.5 }
+itemDrop: siliferrum-ore
