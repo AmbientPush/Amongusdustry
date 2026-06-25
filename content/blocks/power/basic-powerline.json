@@ -1,0 +1,24 @@
+type: PowerNode
+size: 1
+maxNodes: 10
+laserRange: 16
+laserColor1: E1D200FF
+laserColor2: C2B82DFF
+category: power
+research: gate-power
+
+//T1 map requirements
+requirements: [
+  limestone/2
+  basalt/4
+  ingot-chromium/1
+]
+
+requirements: [
+  concrete/4
+  ingot-chromium/1
+]
+researchCost: [
+  concrete/12
+  ingot-chromium/3
+]

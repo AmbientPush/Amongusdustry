@@ -1,0 +1,24 @@
+tyoe: Battery
+size: 2
+category: power
+consumes: {
+  powerBuffered: 5000
+}
+health: 250
+
+//T1 map requirements
+requirements: [
+  limestone/30
+  powder-silica/25
+]
+
+
+requirements: [
+  concrete/15
+  powder-silica/25
+]
+parent: gate-power
+researchCost: [
+  concrete/45
+  powder-silica/60
+]

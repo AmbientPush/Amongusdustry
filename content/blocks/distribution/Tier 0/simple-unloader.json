@@ -1,0 +1,16 @@
+type: DirectionalUnloader
+speed: 5
+category: distribution
+isDuct: true
+research: gate-distribution
+health: 75
+requirements: [
+  limestone/12
+  ingot-ferrum/8
+  ingot-silicon/5
+]
+researchCost: [
+  limestone/50
+  ingot-ferrum/75
+  ingot-silicon/25
+]

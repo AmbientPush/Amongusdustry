@@ -1,0 +1,99 @@
+type: flying
+flying: true
+// 12 x 8
+hitSize: 10
+health: 200
+armor: 0
+speed: 5
+rotateSpeed: 5
+accel: 0.04
+drag: 0.04
+strafePenalty: 0.15
+shadowElevationScl: 2
+range: 96
+maxRange: 96
+lightRadius: 0
+lowAltitude: true
+engineSize: 0
+outlines: false
+outlineColor: 1D0929
+drawCell: false
+healColor: E5776E
+shieldColor: E5776E00
+deathShake: 0.1
+loopSound: loopSmelter
+loopSoundVolume: 0.05
+targetFlags: [
+  shield
+  core
+]
+parts: [
+  {
+    type: RegionPart
+    layer: 91
+    outline: true
+    outlineColor: 1D0929
+  }
+  {
+    type: RegionPart
+    name: automaton-dynamics-shield
+    outline: false
+    blending: additive
+    color: E5776E
+    layer: 88
+    xScl: 0.25
+    yScl: 0.25
+  }
+]
+weapons: [
+  {
+    type: Weapon
+    x: 0, shootX: 0
+    y: 1, shootY: 0
+    reload: 12
+    shootCone: 2.5
+    mirror: false
+    alternate: false
+    rotate: false
+    inaccuracy: 0
+    shootSound: shootLaser
+    bullet: {
+      type: LaserBulletType
+      damage: 12
+      speed: 0
+      lifetime: 16
+      width: 1
+      height: 14
+      length: 96
+      range: 96
+      hitUnder: true
+      pierceArmor: true
+      hittable: false
+      colors: [
+        E5776E
+        B83657
+        55082E
+      ]
+      hitColor: E5776E
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: hitBulletColor
+      despawnEffect: none
+    }
+  }
+]
+abilities: [
+  //segmented shield layer
+  {
+    type: ShieldArcAbility
+    regen: 0.5
+    max: 500
+    angle: 360
+    radius: 10
+    cooldown: 90
+    whenShooting: false
+    angleOffset: 0
+    width: 3
+  }
+]
+research: gate-units

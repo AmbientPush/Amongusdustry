@@ -1,0 +1,41 @@
+type: StackConveyor
+speed: 0.1
+itemCapacity: 5
+health: 100
+category: distribution
+
+
+requirements: [
+  limestone/1
+  basalt/1
+]
+
+
+/*loadEffect: {
+  type: ParticleEffect
+  length: 3
+  particles: 6
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+unloadEffect: {
+  type: ParticleEffect
+  length: 3
+  particles: 6
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}*/
+
+
+research: {
+  parent: gate-distribution
+  requiresUnlock: false
+}
+researchCost: [
+  limestone/5
+  basalt/12
+]

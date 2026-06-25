@@ -1,0 +1,13 @@
+type: ConsumeGenerator
+size: 2
+category: power
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.5
+itemDuration: 120
+requirements: [
+  limestone/20
+  basalt/15
+  ingot-ferrum/5
+]

@@ -1,0 +1,64 @@
+type: MultiCrafter
+size: 2
+category: crafting
+
+autoSelectRecipe: false
+jsonRecipes: [
+  {
+    name: crush-silichrom-lump
+    localizedName: Crush Silichrom Lump
+    input: {
+      items: [
+        lump-silichrom/2
+      ]
+    }
+    output: {
+      items: [
+        powder-silichrom/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+  }
+  //TODO add the rest
+  {
+    name: crush-siliferrum-lump
+    localizedName: Crush Siliferrum Lump
+    input: {
+      items: [
+        lump-siliferrum/2
+      ]
+    }
+    output: {
+      items: [
+        powder-siliferrum/3
+      ]
+    }
+    craftTime: 180
+    alwaysUnlocked: true
+  }
+]
+
+requirements: [
+  limestone/30
+  basalt/25
+]
+
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawPistons
+    angleOffset: 45
+    sides: 2
+  }
+/*  {
+    type: DrawRecipe
+  }*/
+  {
+    type: DrawRegion
+    suffix: -top
+  }
+]

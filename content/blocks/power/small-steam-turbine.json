@@ -1,0 +1,12 @@
+type: ConsumeGenerator
+size: 3
+consume: [
+  liquid: steam/1
+]
+powerProduction: 1
+category: power
+requirements: [
+  limestone/40
+  basalt/30
+  ingot-ferrum/25
+]

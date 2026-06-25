@@ -1,0 +1,11 @@
+type: DuctBridge
+itemCapacity: 6
+range: 7
+requirements: [
+  limestone/12
+]
+speed: 5
+isDuct: true
+research: limestone-splitter
+category: distribution
+health: 125

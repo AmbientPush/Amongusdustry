@@ -1,0 +1,9 @@
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: F2F1ECFF //C7C6C2FF, 999894FF //TODO change later
+alwaysUnlocked: false
+research: 'clean-liquid-silicon'
+cost: 2.5

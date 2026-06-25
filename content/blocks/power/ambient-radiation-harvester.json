@@ -1,0 +1,9 @@
+type: PowerGenerator
+size: 2
+category: power
+powerProduction: 0.5
+requirements: [
+  concrete/120
+  ingot-ferrum/30
+  powder-silica/15
+]

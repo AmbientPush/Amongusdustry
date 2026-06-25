@@ -1,0 +1,10 @@
+type: DuctRouter
+health: 75
+requirements: [
+  limestone/6
+]
+category: distribution
+research: limestone-duct
+researchCost: [
+  limestone/24
+]

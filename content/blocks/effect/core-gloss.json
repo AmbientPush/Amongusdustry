@@ -1,0 +1,28 @@
+type: CoreBlock
+health: 2500
+size: 3
+squareSprite: false
+itemCapacity: 2500
+unitCapModifier: 16
+category: effect
+research: {
+  root: true
+  planet: ancora
+}
+alwaysUnlocked: true
+
+
+//T1 map requirements
+requirements: [
+  limestone/150
+  basalt/400
+  ingot-chromium/600
+  ingot-ferrum/150
+  ingot-silicon/200
+]
+requirements: [
+  concrete/400
+  ingot-chromium/600
+  ingot-ferrum/150
+  ingot-silicon/200
+]

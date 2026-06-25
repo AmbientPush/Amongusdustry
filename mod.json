@@ -10,11 +10,15 @@ super heavy crack mod!!11!!!11one11!1!!1!!112!!!!
 (((greg tech ahh mod aparently)))
 '''
 version: v0 pre-alpha
-minGameVersion: 146
+minGameVersion: 147
 hidden: false
 repo: AmbientPush/Automaton-Dynamics
 subtitle: "crack :drooling_face:"
 hideBrowser: true
+
+dependencies: [
+  multicrafter
+]
 
 contentOrder: [
   //Planets
@@ -25,24 +29,30 @@ contentOrder: [
 
   //Items
 
-  //Ores
-  silichrom-ore
-  siliferrum-ore
+  //Tier 0
+
+  limestone
+  basalt
+
+  //Tier 1
+
+  //Lumps
+  lump-silichrom
+  lump-siliferrum
 
   //Mixed Powders
-  silichrom-powder
-  siliferrum-powder
+  powder-silichrom
+  powder-siliferrum
 
   //Seperated Powders
-  chromium-powder
-  ferrum-powder
-  silica-powder
+  powder-chromium
+  powder-ferrum
+  powder-silica
 
   //Ingots
-  graphite
-  chromium-ingot
-  ferrum-ingot
-  silicon
+  ingot-chromium
+  ingot-ferrum
+  ingot-silicon
 
   //Liquids
 

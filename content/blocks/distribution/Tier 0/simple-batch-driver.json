@@ -1,0 +1,23 @@
+type: MassDriver
+size: 2
+itemCapacity: 50
+minDistribute: 10
+reload: 30
+range: 120
+consumes: {
+  power: 0.5
+}
+category: distribution
+research: gate-distribution
+requirements: [
+  limestone/20
+  basalt/12
+  ingot-ferrum/8
+  ingot-silicon/5
+]
+researchCost: [
+  limestone/40
+  basalt/25
+  ingot-ferrum/75
+  ingot-silicon/25
+]

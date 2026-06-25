@@ -1,0 +1,12 @@
+type: DuctRouter
+health: 100
+requirements: [
+  limestone/12
+  basalt/6
+]
+category: distribution
+research: basalt-stackbelt
+researchCost: [
+  limestone/20
+  basalt/30
+]

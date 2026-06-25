@@ -1,0 +1,10 @@
+type: Duct
+category: distribution
+isDuct: true
+speed: 5
+health: 50
+bridgeReplacement: limestone-overpass
+//junctionReplacement: a-b-b-02-quartz-junction
+requirements: [ limestone/1 ]
+researchCost: [ limestone/10 ]
+research: gate-distribution

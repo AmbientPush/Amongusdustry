@@ -1,0 +1,14 @@
+heatCapacity: 0
+explosiveness: 0.75
+temperature: 0.5
+flammability: 1
+coolant: false
+gas: false
+color: ffffff00
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: false
+lightColor: ffffff00
+viscosity: 0.4
+
+research: 'steam'

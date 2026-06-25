@@ -1,0 +1,49 @@
+type: MultiCrafter
+size: 3
+category: crafting
+
+requirements: [
+  limestone/45
+  basalt/70
+]
+
+
+autoSelectRecipe: true
+jsonRecipes: [
+  {
+    name: boil-dirty-water
+    localizedName: Boiling Dirty Water
+    input: {
+      liquids: [
+        dirty-water/0.5
+        icher/0.25
+      ]
+    }
+    output: {
+      liquids: [
+        steam/0.5
+      ]
+    }
+    craftTime: 60
+    alwaysUnlocked: true
+    weight: 1
+  }
+  {
+    name: boil-pure-water
+    localizedName: Boiling Purified Water
+    input: {
+      liquids: [
+        purified-water/0.5
+        icher/0.125
+      ]
+    }
+    output: {
+      liquids: [
+        steam/0.5
+      ]
+    }
+    craftTime: 60
+    alwaysUnlocked: true
+    weight: 2
+  }
+]
