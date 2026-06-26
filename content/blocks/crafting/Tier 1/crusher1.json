@@ -1,5 +1,5 @@
 type: MultiCrafter
-size: 2
+size: 3
 category: crafting
 
 autoSelectRecipe: false
@@ -20,7 +20,6 @@ jsonRecipes: [
     craftTime: 180
     alwaysUnlocked: true
   }
-  //TODO add the rest
   {
     name: crush-siliferrum-lump
     localizedName: Crush Siliferrum Lump
@@ -43,6 +42,11 @@ requirements: [
   limestone/30
   basalt/25
 ]
+requirements: [
+  concrete/60
+  ingot-ferrum/30
+]
+
 
 drawer: [
   {

@@ -6,7 +6,10 @@ requirements: [
   limestone/45
   basalt/70
 ]
-
+requirements: [
+  concrete/120
+  ingot-chromium/20
+]
 
 autoSelectRecipe: true
 jsonRecipes: [

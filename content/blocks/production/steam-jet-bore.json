@@ -10,18 +10,18 @@ sparkSpread: 25
 sparkRange: -18
 itemCapacity: 30
 liquidCapacity: 30
-/*consumes: {
+consumes: {
   power: 1
   liquids: [
     {
       liquid: steam
       amount: 0.5
-      optional: true
-      booster: true
+      optional: false
+      booster: false
     }
   ]
-}*/
-optionalBoostIntensity: 2.5
+}
+//optionalBoostIntensity: 2.5
 category: production
 research: {
   parent: gate-production
