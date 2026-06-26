@@ -1,0 +1,40 @@
+type: BeamDrill
+size: 3
+range: 5
+drillTime: 120
+tier: 2
+sparks: 24
+sparkRecurrence: 8
+sparkLife: 25
+sparkSpread: 25
+sparkRange: -18
+itemCapacity: 30
+liquidCapacity: 30
+/*consumes: {
+  power: 1
+  liquids: [
+    {
+      liquid: steam
+      amount: 0.5
+      optional: true
+      booster: true
+    }
+  ]
+}*/
+optionalBoostIntensity: 2.5
+category: production
+research: {
+  parent: gate-production
+}
+requirements: [
+  concrete/25
+  ingot-chromium/15
+]
+
+
+drillMultipliers: {
+  limestone: 2
+  basalt: 1
+  lump-silichrom: 0.5
+  lump-siliferrum: 0.5
+}
