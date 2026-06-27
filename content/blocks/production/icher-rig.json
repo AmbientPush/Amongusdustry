@@ -1,0 +1,68 @@
+type: AttributeMultiCrafter
+size: 3
+category: production
+liquidCapacity: 60
+
+
+attribute: heat
+baseEfficiency: 0
+boostScale: 0.3333333333
+maxBoost: 2.5
+minEfficiency: -1.0
+
+jsonRecipes: [
+  {
+    name: icher-rig
+    localizedName: Icher Rig
+    input: {
+      power: 0.25
+    }
+    output: {
+      liquids: [
+        icher/0.5
+      ]
+    }
+
+    craftEffect: [
+      {
+        type: ParticleEffect
+        particles: 8
+        lifetime: 50
+        length: 44
+        sizeFrom: 4.5
+        sizeTo: 0
+        colorFrom: 2596beff
+        colorTo: 2596be00
+        cone: 10
+        baseRotation: 90
+      }
+    ]
+    craftTime: 120
+    updateEffect: none
+    updateEffectChance: 0.04
+    updateEffectSpread: 4
+    warmupSpeed: 0.019
+
+    alwaysUnlocked: true
+    weight: 1
+  }
+]
+
+
+
+
+
+
+
+
+requirements: [
+  limestone/45
+  basalt/70
+  ingot-chromium/20
+  ingot-ferrum/15
+]
+requirements: [
+  concrete/150
+  ingot-chromium/20
+  ingot-ferrum/15
+]
